@@ -2,11 +2,20 @@ package main
 
 import (
 	"fmt"
-	"math"
+	"strconv"
 )
 
 func main() {
-	result := int(float64(42) + math.Pi)
+	// result := int(float64(42) + math.Pi)
 
-	fmt.Println(result)
+	a := "12a"
+	atoi, _ := strconv.Atoi(a)
+
+	fmt.Println(atoi)
+
+	//fmt.Println(result)
+}
+
+func myFunc() string {
+	return ""
 }
